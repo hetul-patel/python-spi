@@ -4,6 +4,7 @@ from flask import Flask, Response
 from flask_restful import Resource, Api
 import numpy as np
 from flask_cors import CORS
+from flask import render_template
 
 
 app = Flask(__name__)
@@ -176,7 +177,7 @@ api.add_resource(my_spi, '/grades/<query>')
 
 @app.route('/')
 def index():
-    return 'OK'
+    return render_template('index.html')
     
 if __name__ == '__main__':
      app.run()
