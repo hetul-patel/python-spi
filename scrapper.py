@@ -174,5 +174,9 @@ class my_spi(Resource):
 
 api.add_resource(my_spi, '/grades/<query>')
 
+@app.route('/')
+def index():
+    return 'OK'
+    
 if __name__ == '__main__':
-     app.run(port='5003')
+     app.run()
