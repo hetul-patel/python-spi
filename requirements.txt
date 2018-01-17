@@ -1,0 +1,7 @@
+Flask==0.12.2
+Flask-Cors==3.0.2
+Flask-RESTful==0.3.6
+numpy==1.13.3
+requests==2.18.4
+gunicorn == 19.7.1
+roman==2.0.0

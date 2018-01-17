@@ -1,0 +1,695 @@
+Code:1 Course:Chemical Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking	0.00
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+PY101	Physics	3.00
+ME101	Engineering Graphics	4.00
+CL102	Mechanics of Solids	5.00
+HM102	English	3.00
+ME102	Mechanical Workshop Practices	1.00
+Semester : III
+Subject Code	Subject	Credits
+CH301	Physical and Analytical Chemistry	4.00
+CH302	Heat Transfer Operations	5.00
+CH303	Solid Fluid Operations	4.00
+CH304	Fluid Flow Operations	4.00
+SP341	Ethics and Values	0.00
+SP301	Community Services
+Semester : IV
+Subject Code	Subject	Credits
+CH401	Organic Chemistry	4.00
+CH402	Chemical Process Industries	5.00
+CH403	Process Calculations	4.00
+CH404	Mass Transfer Operations - I	4.00
+CH405	Chemical Engineering Thermodynamics- I	3.00
+CH406	Seminar	1.00
+SS342	ICT Tools and Security	1.00
+SP343	Entrepreneurship
+Semester : V
+Subject Code	Subject	Credits
+CH501	Mass Transfer Operations II	4.00
+CH502	Chemical Engineering Thermodynamics-II	3.00
+CH503	Instrumentation and Process Control	4.00
+CH504	Hydrocarbons Technology	5.00
+CH505	Plant Utilities and Energy Efficiency	3.00
+CH506	Environmental Pollution Control and Safety Management	4.00
+CH507	Mini Project-I	1.00
+SS561	Creativity and Innovation	2.00
+SP501	Fractional Course
+Semester : VI
+Subject Code	Subject	Credits
+CH601	Chemical Reaction Engineering-I	4.00
+CH602	Process Equipment Design	6.00
+CH611	Food Technology (Elective -I)	3.00
+CH621	Pharmaceutical Technology (Dep. Elective - I)	3.00
+CH631	Nanoscience and Nanotechnology (Dep. Elective - I)	3.00
+CH641	Dyes and Dye Intermediates Technology (Dep. Elective - I)	3.00
+CH651	Fertilizer Technology (Dep. Elective - I)	3.00
+CH661	Polymer Technology (Dep. Elective - I)	3.00
+CH612	Advanced Separation Techniques (Dep. Elective - II)	3.00
+CH622	Advances in Chemical Process Control (Dep. Elective - II)	3.00
+CH632	Process Integration (Dep. Elective - II)	3.00
+CH642	Advanced Chemical Instrumentation Techniques (Dep. Elective - II)	3.00
+CH652	Air Pollution Control Engineering (Dep. Elective - II)	3.00
+-	Institute Elective	3.00
+CH603	Computational Chemical Engineering Laboratory	1.00
+CH604	Mini Project-II	1.00
+SS562	Law for Engineers	2.00
+SP601	Capstone Course	0.00
+Semester : VII
+Subject Code	Subject	Credits
+CH701	Chemical Reaction Engineering II	4.00
+CH702	Modeling and Simulation	3.00
+CH703	Transport Phenomena	3.00
+CH713	Non-Conventional Energy Sources	3.00
+CH723	Bioprocess Engineering	3.00
+CH733	Wastewater Engineering	3.00
+CH743	Advanced Chemical Engineering Thermodynamics	3.00
+CH714	Catalytic Reaction Engineering	3.00
+CH724	Chemical Engineering Economics and Plant Design	3.00
+CH734	Process Optimization	3.00
+CH744	Unit Processes	3.00
+--	University Elective	3.00
+SS701	Organizational Behaviour	2.00
+CH704	Minor Project	2.00
+SP701	Practical Training	0.00
+Semester : VIII
+Subject Code	Subject	Credits
+CH801	Major Project	26.00
+Code:2 Course:Civil Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+CL101	Environment and Energy Studies	3.00
+CY101	Chemistry	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+SP101	Critical Thinking
+EE102	Electrical Workshop Practices	1.00
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CL102	Mechanics of Solids	5.00
+ME101	Engineering Graphics	4.00
+PY101	Physics	3.00
+HM102	English / Foreign Language	3.00
+SP102	Yog and Meditation
+ME102	Mechanical Workshop Practices	1.00
+Semester : III
+Subject Code	Subject	Credits
+MA302	Engineering Mathematics	4.00
+CL301	Structural Mechanics - I	4.00
+CL302	Building Construction Materials	3.00
+CL303	Surveying - I	3.00
+CL304	Building and Town Planning	5.00
+CL305	Concrete Technology	4.00
+SS341	Economics for Engineers	2.00
+SP341	Ethics & Values	0.00
+SP301	Community Services
+Semester : IV
+Subject Code	Subject	Credits
+CL401	Geology and Geotechnical Engineering	5.00
+CL402	Structural Mechanics - II	5.00
+CL403	Building Construction	3.00
+CL404	Surveying - II	4.00
+CL405	Fluid Mechanics	4.00
+CL406	Seminar	1.00
+SS342	ICT Tools and Security	1.00
+SP343	Entrepreneurship	0.00
+Semester : V
+Subject Code	Subject	Credits
+CL501	Design of Structures - I	5.00
+CL502	Water Resources and Irrigation	4.00
+CL503	Environmental Engineering - I	4.00
+CL504	Transportation Engineering - I	3.00
+CL505	Advanced Construction	3.00
+CL506	Foundation Engineering	4.00
+CL507	Mini Project - I	1.00
+SS561	Creativity and Innovation	2.00
+SP501	Fractional Course
+Semester : VI
+Subject Code	Subject	Credits
+CL601	Design of Structures - II	5.00
+CL602	Environmental Engineering - II	3.00
+CL603	Transportation Engineering - II	4.00
+CL604	Mini Project - II	1.00
+CL6E1	Elective I	4.00
+CL6E2	Elective II	4.00
+CLXXX	Institute Elective	3.00
+SS562	Law for Engineers	2.00
+SP601	Capstone Course
+Semester : VII
+Subject Code	Subject	Credits
+CL701	Construction and Project Management	4.00
+CL702	Professional Practice	4.00
+CL703	Design of Structures - III	4.00
+CL7E3	Elective III	4.00
+CL7E4	Elective IV	4.00
+CL704	Minor Project	2.00
+--	University Elective	3.00
+SS701	Organizational Behaviour	2.00
+SP701	Practical Training	0.00
+Semester : VIII
+Subject Code	Subject	Credits
+CL801	Major Project	16.00
+Code:3 Course:Electrical Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+HM102	English - Foreign Language	3.00
+ME101	Engineering Graphics	4.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : III
+Subject Code	Subject	Credits
+MA304	Mathematics for Electrical Engineers	5.00
+ME321	Thermal and Hydraulics Prime Movers	3.00
+EE301	Analog Electronic Circuits	4.00
+EE302	Network Analysis and Synthesis	4.00
+EE303	Electrical Engineering Materials	2.00
+EE304	Electrical Transducers and Measurements	4.00
+SS342	ICT Tools and Security	1.00
+SP343	Entrepreneurship	1.00
+SP301	Community Services
+Semester : IV
+Subject Code	Subject	Credits
+EE401	Fundamentals of Electrical Power System	3.00
+EE402	DC Machines and Transformers	4.00
+EE403	Digital Electronic Circuits	4.00
+EE404	Fundamentals of Power Electronics	4.00
+EE405	Control System Engineering	4.00
+EE406	Engineering Electromagnetics	4.00
+SS341	Economics For Engineers	2.00
+EE407	Seminar	1.00
+SP341	Ethics and Values	0.00
+Semester : V
+Subject Code	Subject	Credits
+EE501	Analysis of Electrical Power System	4.00
+EE502	Rotating AC Machines	4.00
+EE503	High Voltage Engineering	4.00
+EE504	Power Electronic Converters	4.00
+EE505	Utilization of Electrical Power	2.00
+EE506	Microprocessor and Microcontroller	4.00
+EE507	Mini Project-I	1.00
+SP501	Fractional Course
+Semester : VI
+Subject Code	Subject	Credits
+EE601	Power System Operation and Control	5.00
+EE602	Electrical Drives and Traction Systems	4.00
+EE603	Testing, Commissioning and Maintenance of Electrical Equipment	3.00
+EE611	Electronic System Design (Elective-I)	3.00
+EE621	Permanent Magnet Brushless and Reluctance Motors (Elective-I)	3.00
+EE631	Renewable Energy Sources (Elective-I)	3.00
+EE641	Advanced Microprocessors and Microcontrollers (Elective-I)	3.00
+EE612	Signals and Systems (Elective-II)	3.00
+EE622	Dynamics and Modelling of Electrical Machines (Elective-II)	3.00
+EE632	Extra High Voltage Transmission (Elective-II)	3.00
+EE604	Mini Project - II	1.00
+SP601	Capstone Course	0.00
+Semester : VII
+Subject Code	Subject	Credits
+EE701	Electrical Machine Design	4.00
+EE702	Digital Signal Processors for Electrical Engineering	3.00
+EE703	Power System Protection and Switchgear	4.00
+EE704	Minor Project	2.00
+SS701	Organizational Behaviour	2.00
+EE713	Applications of Power Electronics in Power System (Elective III)	3.00
+EE723	Design of Permanent Magnet Brushless and Reluctance Motors (Elective III)	3.00
+EE733	Computer Techniques in Power System (Elective III)	3.00
+EE714	Electromagnetic Interference and Electromagnetic Compatibility (Elective IV)	3.00
+EE724	Control of Electric Drives (Elective IV)	3.00
+EE734	Advanced Electrical Power System (Elective IV)	3.00
+SP701	Practical Training	0.00
+Semester : VIII
+Subject Code	Subject	Credits
+EE801	Major Project (Full-Time)	21.00
+Code:4 Course:Computer Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+ME101	Engineering Graphics	4.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation	0.00
+HM102	English - Foreign Language	3.00
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE103	Computer Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : III
+Subject Code	Subject	Credits
+EC321	Basic Electronics	4.00
+CE301	Digital Systems	5.00
+CE302	Object Oriented Programming	5.00
+CE303	Mathematical foundation of Computer Science	4.00
+SS342	ICT Tools and Security	1.00
+SP301	Community Services
+SP343	Entrepreneurship
+MA306	Applied Mathematics	4.00
+Semester : IV
+Subject Code	Subject	Credits
+SP341	Ethics & Values	0.00
+CE401	Data Communication	4.00
+CE402	Computer Organization	5.00
+CE403	Data Structures	5.00
+CE404	Seminar	1.00
+CE405	Mini Project - I	1.00
+CE406	Computer Peripherals Workshop	1.00
+MA403	Probability Statistics and Numerical Analysis	5.00
+SS341	Economics For Engineers	2.00
+Semester : V
+Subject Code	Subject	Credits
+CE501	Theory of Computation	4.00
+CE502	Database Management Systems	5.00
+CE503	Computer Networks	5.00
+CE504	Operating Systems	5.00
+IT502	Web designing	3.00
+SS562	Law for Engineers	2.00
+SP501	Fractional Course	1.00
+CE505	Mini Project- II	1.00
+Semester : VI
+Subject Code	Subject	Credits
+CE601	Design and Analysis of Algorithms	4.00
+IT601	Software Engineering	4.00
+CE611	.net Technologies (Elective I)	4.00
+CE621	Java Technologies (Elective I)	4.00
+CE631	Objective C Programming (Elective I)	4.00
+CE641	Embedded C Programming (Elective I)	4.00
+IT764	System Software (Elective I)	4.00
+CE602	Mini Project- III	1.00
+SS561	Creativity and Innovation	2.00
+SP601	Capstone Course ( Computer Engineering)	0.00
+CE651	LAMP Technologies (Elective I)	4.00
+CE661	Mobile Applications Development Technologies (Elective I)	4.00
+IT612	Advanced Computer Networks (Elective II)	4.00
+IT622	Machine Human Interface (Elective II)	4.00
+IT632	Computer Graphics and Visualization (Elective II)	4.00
+IT642	Main Frame Systems (Elective II)	4.00
+IT652	Network Security and Encryption (Elective II)	4.00
+IT662	Cloud Computing (Elective II)	4.00
+IT692	Software Testing (Elective II)	4.00
+IT682	Business Analysis and Optimization (Elective II)	4.00
+CE613	IT Industry Management (Elective III)	4.00
+CE623	Machine Learning (Elective III)	4.00
+CE633	Data Mining (Elective III)	4.00
+CE643	Parallel and Distributed computing (Elective III)	4.00
+CE653	Advanced Data Structures (Elective III)	4.00
+CE663	Natural Language Processing (Elective III)	4.00
+Semester : VII
+Subject Code	Subject	Credits
+IT724	Artificial Intelligence	4.00
+IT794	Compiler Construction	4.00
+IT784	Data Compression(ElectiveIV)	4.00
+CE701	Interfacing with Microprocessor	4.00
+CE703	Open source development lab	4.00
+IT744	Digital Image Processing(Elective IV)	4.00
+IT714	Database Administration(Elective IV)	3.00
+SS701	Organizational Behaviour	2.00
+IT7B4	Web security (Elective IV)	4.00
+IT7C4	Big data analytics (Elective IV)	4.00
+IT7D4	Agile Software Development (Elective IV)	4.00
+IT7E4	Secure software engineering (Elective IV)	4.00
+SP701	Practical Training	0.00
+IT754	Wireless Networks (Elective IV)	4.00
+IT702	Information Retrieval System (Elective IV)	4.00
+IT7A4	Network programming (Elective IV)	4.00
+IT734	System administration(Elective IV)	4.00
+CE702	Minor Project	2.00
+Semester : VIII
+Subject Code	Subject	Credits
+CE801	Major Project	21.00
+Code:5 Course:Information Technology
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+ME101	Engineering Graphics	4.00
+HM102	English - Foreign Language	3.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : III
+Subject Code	Subject	Credits
+EC321	Basic Electronics	4.00
+CE301	Digital Systems	5.00
+CE302	Object Oriented Programming	5.00
+CE303	Mathematical foundation of Computer Science	4.00
+MA306	Applied Mathematics	4.00
+SS342	ICT Tools and Security	1.00
+SP343	Entrepreneurship
+SP301	Community Services
+Semester : IV
+Subject Code	Subject	Credits
+IT401	Communication Engineering	4.00
+CE402	Computer Organization	5.00
+CE403	Data Structures	5.00
+MA403	Probability Statistics and Numerical Analysis	5.00
+IT402	Seminar	1.00
+IT403	Mini Project - I	1.00
+CE406	Computer Peripherals Workshop	1.00
+SS341	Economics for Engineers	2.00
+SP341	Ethics and Values	0.00
+Semester : V
+Subject Code	Subject	Credits
+CE501	Theory of Computation	4.00
+CE502	Database Management Systems	5.00
+IT501	Data Communication Networks	5.00
+CE504	Operating Systems	5.00
+IT502	Web designing	3.00
+IT503	Mini Project- II	1.00
+SS562	Law for Engineers	2.00
+SP501	Fractional Course
+Semester : VI
+Subject Code	Subject	Credits
+IT601	Software Engineering	4.00
+CE601	Design and Analysis of Algorithms	4.00
+CE611	.net Technologies (Elective I)	4.00
+CE621	Java Technologies (Elective I)	4.00
+CE631	Objective C Programming (Elective I)	4.00
+CE641	Embedded C Programming (Elective I)	4.00
+CE651	LAMP Technologies (Elective I)	4.00
+CE661	Mobile Applications Development Technologies (Elective I)	4.00
+IT612	Advanced Computer Networks (Elective II)	4.00
+IT622	Machine Human Interface (Elective II)	4.00
+IT632	Computer Graphics and Visualization (Elective II)	4.00
+IT642	Main Frame Systems (Elective II)	4.00
+IT652	Network Security and Encryption (Elective II)	4.00
+IT662	Cloud Computing (Elective II)	4.00
+IT602	Mini Project III	1.00
+IT692	Software Testing (Elective II)	4.00
+IT682	Business Analysis and Optimization (Elective II)	4.00
+CE613	IT Industry Management (Elective III)	4.00
+CE623	Machine Learning (Elective III)	4.00
+CE633	Data Mining (Elective III)	4.00
+CE643	Parallel and Distributed computing (Elective III)	4.00
+CE653	Advanced Data Structures (Elective III)	4.00
+CE663	Natural Language Processing (Elective III)	4.00
+Semester : VII
+Subject Code	Subject	Credits
+IT724	Artificial Intelligence	4.00
+IT702	Information Retrieval System (Elective IV)	4.00
+IT7A4	Network programming (Elective IV)	4.00
+IT784	Data Compression(ElectiveIV)	4.00
+IT794	Compiler Construction	4.00
+IT7B4	Web security (Elective IV)	4.00
+SS701	Organizational Behaviour	2.00
+IT7C4	Big data analytics (Elective IV)	4.00
+IT7D4	Agile Software Development (Elective IV)	4.00
+IT7E4	Secure software engineering (Elective IV)	4.00
+SP701	Practical Trainining
+IT764	System Software (Elective I)	4.00
+IT754	Wireless Networks (Elective IV)	4.00
+-	Institute Elective	3.00
+IT704	Minor project	2.00
+IT714	Database Administration(Elective IV)	3.00
+IT734	System administration(Elective IV)	4.00
+IT744	Digital Image Processing(Elective IV)	4.00
+Semester : VIII
+Subject Code	Subject	Credits
+IT801	Major Project	21.00
+Code:6 Course:Electronics and Communication Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+ME101	Engineering Graphics	4.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation
+HM102	English - Foreign Language	3.00
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : III
+Subject Code	Subject	Credits
+EC301	Electronics Devices and Circuits-I	5.00
+EC302	Digital Circuits	5.00
+EE321	Network Analysis	4.00
+IC321	Linear Control System	4.00
+MA303	Vector Calculus, Complex Variables and Differential Equations	4.00
+SS341	Economics For Engineers	2.00
+SP341	Ethics and Values	0.00
+SP301	Community Services
+Semester : IV
+Subject Code	Subject	Credits
+MA401	Probability Distributions and Numerical Methods	3.00
+EC401	Signals and Systems	4.00
+EC402	Electronics Devices and Circuits - II	4.00
+EE421	Electrical Machines and Drives	4.00
+EC403	Communication Systems	4.00
+EC404	Electronics Design, Tools and Packages	1.00
+EC405	Seminar	1.00
+SS401	ICT Tools and Security	1.00
+SP343	Entrepreneurship	0.00
+Semester : V
+Subject Code	Subject	Credits
+EC501	Electromagnetics Engineering	3.00
+EC502	Integrated Circuits and Applications	4.00
+EC503	Microprocessor and Computer Architecture	3.00
+EC504	Modern Measurement and Instrumentation	2.00
+EC505	Digital Communication	4.00
+EC506	Digital Signal Processing	4.00
+EC507	Microprocessor and Microcontroller Lab	1.00
+EC508	Mini Project-I	1.00
+SP501	Fractional Course	1.00
+Semester : VI
+Subject Code	Subject	Credits
+SS562	Law for Engineers	2.00
+EC601	Digital System Design	4.00
+EC602	Antenna and Wave Propagation	4.00
+EC603	Fiber Optic Communication	4.00
+EC611	Digital Integrated Circuit Design	3.00
+EC621	System Modeling and Design	3.00
+EC631	Estimation and Detection Theory	3.00
+EC641	Telecom Networks	3.00
+EC612	Analog Integrated Circuit Design	3.00
+EC622	Modern Processor Architecture	3.00
+EC632	Error Control Coding	3.00
+EC642	Satellite Communication	3.00
+EC605	Mini Project-II	1.00
+SP601	Capstone Course	0.00
+Semester : VII
+Subject Code	Subject	Credits
+EC701	Data Communication and Networking	4.00
+EC702	Embedded Systems	4.00
+EC703	Microwave Engineering	4.00
+EC704	Minor Project	4.00
+EC713	Testing and Verification of Electronic Circuits	3.00
+EC723	Multimedia Systems	3.00
+EC733	Wireless Communications	3.00
+EC743	Wireless Sensor Networks	3.00
+EC714	High Performance VLSI Design	3.00
+EC724	Image Processing	3.00
+EC734	RF Communication Circuits	3.00
+EC744	Broadband Network	3.00
+SP701	Practical Training
+Semester : VIII
+Subject Code	Subject	Credits
+EC801	Major Project	24.00
+2EC407	Comprehensive Viva/Voce	2.00
+Code:7 Course:Instrumentation and Control Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+HM102	English - Foreign Language	3.00
+ME101	Engineering Graphics	4.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+CE101	Art of Programming	5.00
+EE101	Elements of Electrical Engineering	4.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : III
+Subject Code	Subject	Credits
+MA305	Mathematics for Instrumentation and Control Engineers	5.00
+IC301	Control Theory	4.00
+IC302	Digital Logic Design	4.00
+IC303	Analog Electronics	5.00
+IC304	Network Analysis and Synthesis	4.00
+SS342	ICT Tools and Security	1.00
+SP343	Entrepreneurship	1.00
+Semester : IV
+Subject Code	Subject	Credits
+EE422	Applied Electrical Technology	4.00
+IC401	Microprocessors and Micro Controllers	4.00
+IC402	Signals and Systems	3.00
+IC403	Electrical and Electronics Measurement	4.00
+IC404	Control System Design	4.00
+SS341	Economics for Engineers	2.00
+IC405	System Analysis Packages	1.00
+IC406	Seminar	1.00
+SP341	Ethics & Values	0.00
+SP301	Community Services
+Semester : V
+Subject Code	Subject	Credits
+IC501	Control System Components	3.00
+IC502	Transducers and Measurement	4.00
+IC503	Digital Signal Processing	4.00
+IC504	Applied Electronics	4.00
+IC505	Virtual Instrumentation	1.00
+IC506	Mini Project-I	1.00
+SP501	Fractional Course	0.00
+IC511	Advanced Microcontrollers and its Applications	4.00
+IC521	Advanced Microprocessors and its Applications	4.00
+IC531	Embedded Controller based Design	4.00
+IC541	Electronic Communication	4.00
+Semester : VI
+Subject Code	Subject	Credits
+IC601	Industrial Electronics	5.00
+IC602	Process Control	5.00
+IC603	Virtual Instrumentation Applications	1.00
+IC604	Mini Project-II	1.00
+IC612	Digital Design for Instrumentation	4.00
+IC613	Data communication and Industrial Networking	3.00
+SP601	Capstone Course	0.00
+SS561	Creativity and Innovation	2.00
+IC622	Biomedical Instrumentation	4.00
+IC623	Fuzzy control	3.00
+IC632	Mechatronics	4.00
+IC633	Digital VLSI based design	3.00
+IC642	Advanced Sensors and Instrumentation	4.00
+IC643	Maintenance of Instruments and systems	3.00
+Semester : VII
+Subject Code	Subject	Credits
+IC701	Instrumentation Systems	3.00
+IC702	Process Automation	4.00
+IC703	Nonlinear and Digital Control	4.00
+IC704	Industrial Drives and Controls	4.00
+IC705	Minor Project	2.00
+SS701	Organizational Behaviour	2.00
+IC714	Power Plant Automation	3.00
+IC724	Advanced Power Electronics and Applications	3.00
+IC734	Analog VLSI	3.00
+IC744	Cyber Physical Systems	3.00
+IC754	Model Based Control	3.00
+SP701	Practical Training
+Semester : VIII
+Subject Code	Subject	Credits
+IC801	Major Project	25.00
+Code:8 Course:Mechanical Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+CY101	Chemistry	3.00
+CL101	Environment and Energy Studies	3.00
+EE101	Elements of Electrical Engineering	4.00
+CE101	Art of Programming	5.00
+HM101	Communication Skills	3.00
+EE102	Electrical Workshop Practices	1.00
+SP101	Critical Thinking
+Semester : II
+Subject Code	Subject	Credits
+ME101	Engineering Graphics	4.00
+MA201	Linear Algebra	4.00
+PY101	Physics	3.00
+CL102	Mechanics of Solids	5.00
+HM102	English - Foreign Language	3.00
+ME102	Mechanical Workshop Practices	1.00
+SP102	Yog and Meditation	0.00
+Semester : III
+Subject Code	Subject	Credits
+ME301	Kinematics	3.00
+ME302	Thermodynamics	3.00
+ME303	Material Technology	4.00
+ME304	Manufacturing Processes I	4.00
+ME305	Industrial Drafting and Machine Design	5.00
+SS341	Economics For Engineers	2.00
+SP341	Ethics & Values	0.00
+SP301	Community Services	0.00
+Semester : IV
+Subject Code	Subject	Credits
+ME401	Dynamics of Machinery I	4.00
+ME402	Metrology and Instrumentation	4.00
+MA402	Mathematics for Mechanical Engineering	4.00
+ME403	Manufacturing Processes II	4.00
+ME404	Fluid Mechanics	4.00
+SS342	ICT Tools and Security	1.00
+ME405	Seminar	1.00
+SP343	Entrepreneurship	0.00
+Semester : V
+Subject Code	Subject	Credits
+ME501	Dynamics of Machinery- II	4.00
+ME502	Power Plant Engineering	4.00
+ME503	Fluid Power Engineering	4.00
+ME504	Heat and Mass Transfer	4.00
+ME505	Control Engineering	3.00
+ME506	Mini Project - I	1.00
+ME5E1	Department Elective I	3.00
+SS561	Creativity and Innovation	2.00
+Semester : VI
+Subject Code	Subject	Credits
+ME601	Production Technology	4.00
+ME602	Machine Design I	4.00
+ME603	Thermal Engineering	4.00
+ME604	Mini Project - II	1.00
+ME6E2	Department Elective II	3.00
+ME6E3	Department Elective III	3.00
+SS562	Law for Engineers	2.00
+SP601	Capston Course (Mechanical Engineering)	0.00
+Semester : VII
+Subject Code	Subject	Credits
+ME701	Computer Aided Design	4.00
+ME702	Machine Design II	4.00
+ME703	Production and Industrial Management	3.00
+ME704	Computer aided Manufacturing	4.00
+ME705	Minor Project	2.00
+ME7E4	Department Elective IV	3.00
+SS701	Organizational Behaviour	2.00
+Semester : VIII
+Subject Code	Subject	Credits
+ME801	Major Project	23.00

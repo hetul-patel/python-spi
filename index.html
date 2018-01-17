@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+input[type=text] {
+    padding: 9px;
+    font-size: 17px;
+    border: 2px solid #000000;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+#Message{
+  color: red;
+  padding: 9px;
+  font-size: 17px;
+  border: 2px solid #000000;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1.5px solid #000000;
+    border-left: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0b7dda;
+}
+
+#heading{
+  text-align: center;
+  background: #222529;
+  color: white;
+  padding: 16px;
+  font-size: 18px
+}
+
+#footer{
+  color: gray;
+  padding: 16px;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+</style>
+
+<!-- Latest compiled JavaScript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $.get("http://127.0.0.1:5003/grades/"+$("#input").val().replace(/\s+/g, " "), function(data, status){
+        $("#result").html(data)
+        });
+    });
+
+    $("#btn2").click(function(){
+      credits = []
+      points = []
+
+        $("input[id=credit]").each(function() {
+          credits.push($(this).val())
+        })
+
+        $("[id=point]").each(function() {
+          points.push($(this).text())
+        })
+
+        var i;
+        var total_credits = 0
+        var total_earned = 0
+        for (i = 0; i < credits.length; ++i) {
+            total_credits += parseFloat(credits[i])
+            total_earned += parseFloat(credits[i]*points[i])
+            // do something with `substr[i]`
+        }
+
+        var spi = total_earned/total_credits
+
+        console.log(spi);
+
+        $('#mc').html(total_credits.toFixed(1))
+        $('#ce').html(total_earned.toFixed(1))
+        $('#spi').html(spi.toFixed(3))
+
+    });
+});
+</script>
+</head>
+<body>
+<div id="heading"> The SPI Calculator for ITNU </div>
+<input type="text" id="input" placeholder="Paste your mail here:" width="100%"></input>
+<button id="btn1">Result</button>
+<div id="result"></div>
+<span id="Message">Please edit credits and re-calculate SPI if need be.</span>
+<button id="btn2">Re-calculate</button>
+<div id="footer">Developed by 14BCE034</div>
+</body>
+</html>
