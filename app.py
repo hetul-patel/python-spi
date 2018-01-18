@@ -1,3 +1,12 @@
+'''
+
+This python script works as a backend for parsing the copied text from  mail  and 
+calculate SPI score for perticular user. Flask is used to deploy the  core  logic
+to the webserver(Heroku in my case). re is regular expression module  provided by
+python useful in parsing the given user string and extract the useful information
+
+'''
+
 import roman
 import re
 from flask import Flask, Response
@@ -11,11 +20,19 @@ app = Flask(__name__)
 api = Api(app)
 CORS(app)
 
-file = 'credit'
+###     branch wise data of credits scrapped from the nirmauniversity site is stored
+###     in the credit file. You can check it for your reference in  home   directory
+file = 'credit'   
+
+###     database is dictionary data structure which stores the parsed details   for 
+###     each branch semester wise.
+database = {}    
+
+###     These are some predefined variable. Use of each is decribed in further code 
 count = 0
 current_branch = ""
 current_sem = 0
-database = {}
+
 
 map_of_grade = {
     "A+":10.0,
@@ -29,6 +46,8 @@ map_of_grade = {
     "IF":0.0,
     "IF(S)":0.0
 }
+
+
 map_of_branch = {
     "CH" : "Chemical Engineering",
     "CL" : "Civil Engineering",
@@ -40,9 +59,40 @@ map_of_branch = {
     "ME" : "Mechanical Engineering"
 }
 
+'''
+Read the credit file line by line. Have a look at some lines from credit file for
+understanding the logic.
+
+---------------------------------- Credit ----------------------------------------
+
+Code:1 Course:Chemical Engineering
+Semester : I
+Subject Code	Subject	Credits
+MA101	Calculus	4.00
+...
+...
+...
+...
+Semester : II
+Subject Code	Subject	Credits
+MA201	Linear Algebra	4.00
+PY101	Physics	3.00
+...
+...
+
+----------------------------------------------------------------------------------
+
+First line of each branch starts with " Code:X Course:XXXX XXXXX " followed by the
+semester in roman which is converted into decimals. Thrid line is useless   and we 
+cab then sart storing the subject details for current branch and  current semester
+
+
+''' 
 with open(file, 'rb') as inputfile:
     for line in inputfile:
         line = str(line)
+
+    ### Remove the b' and \n from line
         line = line.replace("b'","")
         line = line.replace("\\n'","")
 
@@ -51,26 +101,24 @@ with open(file, 'rb') as inputfile:
         elif line.startswith("Semester"):
             count = 1
 
+    ### if we are the at third lime of one branch block follow below logic
         if count == -1:
             count = -1
 
-            #add subject to current sem under current branch
+        ### Split the line by \t and add subject to current semester under current branch 
             subject_details = line.split("\\t")
             course_code = subject_details[0]
             course_name = subject_details[1]
+
+        ### if course credit is not defined take it as 0.0  
             try:
                 course_credit = subject_details[2]
             except:
                 course_credit = 0.0
 
-            '''
-            database[current_branch][current_sem].append({"code":course_code,
-                                                              "name":course_name,
-                                                              "credit":course_credit})
-            '''
-
             database[current_branch][current_sem].update({course_name:course_credit})
 
+    ### if we are at the first line of block than intialize new object for a branch
         elif count == 0:
             count = 1
 
@@ -81,10 +129,11 @@ with open(file, 'rb') as inputfile:
             current_branch = course
             database.update({course:{}})
 
+    ### if we are at the second line of block than intialize new object for a semster
         elif count == 1:
             count = 2
 
-        ### Collecting the semester
+        ### Collecting the semester number
             sem = line.replace(" ","").split(":")[1]
             sem = roman.fromRoman(sem)
             current_sem = sem
@@ -93,9 +142,23 @@ with open(file, 'rb') as inputfile:
             count = -1
 
 
-#result = 'Civil Engineering,7,Minor Project:B+,Practical Training:B,Geomatics:B+,Human Resource Management:B+,Design of Structures - III:B,Organizational Behavior:B+,Traffic Engineering and Design:B+,Construction and Project Management:B+,Professional Practice:B'
-def count_spi(result):
 
+def count_spi(result):
+'''
+
+This function a takes a string of below form and  returns a  html   output for response.
+First two arguments are name and semester followed by the Course name and grade obtained
+which is separated by ':'
+
+------- sample query -----
+
+result = 'Civil Engineering,7,Minor Project:B+,Practical Training:B,Geomatics:B+,Human 
+Resource Management:B+,Design of Structures - III:B,Organizational Behavior:B+,Traffic 
+Engineering and Design:B+,Construction and Project Management:B+,Professional Practice:B'
+
+--------------------------
+
+'''
     grade_details = result.split(",")
     branch = grade_details[0]
     semester = int(grade_details[1])
@@ -117,7 +180,6 @@ def count_spi(result):
 
         score = float(map_of_grade[grade])
 
-        #print(subject,credit,grade,score)
         total_credits_earned += score*credit
         sum_of_credits += credit
 
@@ -150,9 +212,19 @@ def count_spi(result):
 
 
     return response
-    #return total_credits_earned/sum_of_credits
 
 def parse_string(query):
+'''
+
+This function gets the raw query as input from mail and generate  the  modified query for
+count_spi function. Branch of student is extracted from roll no. for   e.g CE -> Computer
+Engineering in map_of_branch map defined earlier.
+
+Subject code and semester number from each line is removed using regular expression match
+
+For e.g Course code can be a string of alphabets following of alpha numeric character
+
+'''
     roll_no = query [ query.find("Roll No : ",1)+len('Roll No :  ') : query.find(" Student Name",1) ]
     name = query [ query.find("Student Name : ",1)+len('Student Name : ') : query.find(" Course",1) ]
     grades = query[ query.find("Course Grade",1)+len('Course Grade '):len(query) ]
@@ -165,7 +237,8 @@ def parse_string(query):
     return branch+","+sem+modified
 
 
-# In[ ]:
+
+###  Following is the API logic in flask for mapping input string to html response. 
 
 class my_spi(Resource):
     def get(self, query):
