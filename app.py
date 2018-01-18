@@ -112,7 +112,7 @@ def count_spi(result):
         try:
             credit = float(database[branch][semester][subject])
         except:
-            credit = 4.0
+            credit = 3.0
 
         score = float(map_of_grade[grade])
 
