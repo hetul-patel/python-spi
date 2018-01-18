@@ -159,7 +159,7 @@ def parse_string(query):
     branch = map_of_branch[roll_no[3:5]]
 
     modified = re.sub("[' '][\d][' ']",":",grades)
-    modified = re.sub("[' ']?[A-Z]+[\d][\d][\d][' ']",",",modified)
+    modified = re.sub("[' ']?[A-Z]+[\d][\d]?[A-Z]?[\d][' ']",",",modified)
 
     return branch+","+sem+modified
 
