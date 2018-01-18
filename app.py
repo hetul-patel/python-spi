@@ -26,7 +26,8 @@ map_of_grade = {
     "C":5.0,
     "D":4.0,
     "FF":0.0,
-    "IF":0.0
+    "IF":0.0,
+    "IF(S)":0.0
 }
 map_of_branch = {
     "CH" : "Chemical Engineering",
