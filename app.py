@@ -120,7 +120,13 @@ def count_spi(result):
         total_credits_earned += score*credit
         sum_of_credits += credit
 
-        result_html += '<tr><th scope="row">'+subject+'</th><td><input type="text" id="credit" value='+str(credit)+' ></td><td>'+str(grade)+'</td><td id="point">'+str(score)+'</td></tr>'
+        try:
+            credit = float(database[branch][semester][subject])
+            result_html += '<tr><th scope="row">'+subject+'</th><td><input type="text" id="credit" value='+str(credit)+' ></td><td>'+str(grade)+'</td><td id="point">'+str(score)+'</td></tr>'
+        except:
+            result_html += '<tr><th scope="row">'+subject+'</th><td><input type="text" id="credit" class="error" value='+str(credit)+' ></td><td>'+str(grade)+'</td><td id="point">'+str(score)+'</td></tr>'
+
+        
 
     spi = np.round(total_credits_earned/sum_of_credits,decimals=3)
     result_html += '<thead class="thead-dark"><tr><th scope="row">Credits Earned : <span id="ce">'+str(total_credits_earned)+'</span></th><th>Max Credits : <span id="mc">'+str(sum_of_credits)+'</span></th><th colspan=2>SPI : <span id="spi">'+str(spi)+'</span></th></tr></thead>'
